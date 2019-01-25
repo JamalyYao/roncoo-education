@@ -128,3 +128,23 @@ Lombok是一个可以通过简单的注解形式来帮助我们简化消除一�
 ## 项目推荐
 ##### roncoo-recharge：[码云地址](https://gitee.com/roncoocom/roncoo-recharge) | [Github地址](https://github.com/roncoo/roncoo-recharge)
 ##### roncoo-jui-springboot：[码云地址](https://gitee.com/roncoocom/roncoo-jui-springboot) | [Github地址](https://github.com/roncoo/roncoo-jui-springboot)
+
+### 加密
+1. 加密，用以下命令将用户名和密码加密
+
+cmd命令行执行 java -cp druid-1.1.6.jar com.alibaba.druid.filter.config.ConfigTools 用户名/密码
+
+得到密文:
+privateKey:MIIBVQIBADANBgkqhkiG9w0BAQEFAASCAT8wggE7AgEAAkEAyK+QpL7shQdIJgfmL9iNRzaB2aRnEEBKV+cdnchrOeKTza0OnYbCVRRfsPr6XB5w6pxchwFf1kEHgonzhwDcAwIDAQABAkBoHGRugznSnX95c1mgcriAPC/LB/YLwT6QMa70nve5k/2o/Z5JoeAW9uWimVdF1d2TWlAJqBM8fguqI+P7cDVJAiEA5CqAt86FkPXD/G7UPD0SHNAumwKpTLXqU2awBexhVxUCIQDhKt7CWjvfli67uGeHUbySUabjSaCKa+tFAfXRJaQstwIgCjmhZRtbPwDUlKZ+2mg+PI5T2FyJK8fnRW+PqeRLBHUCIQDOulduxP23l+EsRG/401h4VjMM9mpI7DBDWTthXFfRHQIhAOJuDWWyPGNulhFkdCaBu6DOdg6rIFS1Hh1D3sHAChnR
+publicKey:MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAMivkKS+7IUHSCYH5i/YjUc2gdmkZxBASlfnHZ3Iaznik82tDp2GwlUUX7D6+lwecOqcXIcBX9ZBB4KJ84cA3AMCAwEAAQ==
+password:cegOiPmydYecOeN+LIIUXLl7w8VEio+vLjQ3uGtsi1OkW/Fqj7Yw33jqtKpxcKaO3xKsMyTv6I8YhdFsC4p2sA==
+
+### 启动顺序
+eureka
+config
+gateway
+user
+system
+course
+boss
+crontab
